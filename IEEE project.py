@@ -5,7 +5,7 @@ import tensorflow as tf
 from tensorflow import keras
 
 # Load the data
-data = pd.read_csv("D:\python\Book1.csv")
+data = pd.read_csv("https://github.com/Harpittt/IEEE-project/blob/cc8b72bbf736129fd75e46dac85143fefd0e2e51/Book1.csv")
 
 # Split the data into features and classes
 features = data.iloc[:, :12]
